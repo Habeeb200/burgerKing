@@ -1,5 +1,5 @@
 body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #container1{
     background-image: url("images/hero-bg.jpg");
@@ -34,4 +34,9 @@ body{
 }
 .text{
     font-size: 60px;
+}
+#btn1{
+    position: absolute;
+    top: 410px;
+    right: 980px;
 }
