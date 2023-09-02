@@ -1,0 +1,37 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#container1{
+    background-image: url("images/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 610px;
+    color: white;
+}
+.btn{
+    width: 160px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: orange;
+    padding: 10px;
+}
+#container5{
+    width: 570px;
+    padding: 15px;
+}
+.img2{
+    width: 210px;
+    border: 5px solid;
+    border-color: orange;
+    border-radius: 50%;
+}
+#container6{
+    padding: 80px;
+    color: white;
+}
+#container8{
+    height: 660px;
+}
+.text{
+    font-size: 60px;
+}
