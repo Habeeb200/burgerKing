@@ -9,7 +9,7 @@
     margin-right: 50px;
  
 }
-h1{
+.book h1{
     font-size: 60px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 120px;
@@ -52,10 +52,10 @@ select{
     background-color: white;  
     border-color: rgba(0, 0, 0, 0.26);
 }
-h5{
+.book h5{
     color:rgba(0, 0, 0, 0.589);
 }
-p{
+.book p{
     color:rgba(0, 0, 0, 0.568);
 }
 .button-cont button{

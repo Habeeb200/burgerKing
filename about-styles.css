@@ -7,10 +7,10 @@
     padding-top: 200px;
     color: #ffffff;
 }
-h2 {
+.container h2 {
     font-family: 'Dancing script' cursive;
 }
-p {
+.container p {
     font-family: sans-serif;
 }
 .content h2 {
