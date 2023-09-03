@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info{
+ background-color: rgba(0, 0, 0, 0.846);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+ padding: 100px;
+ font-size: larger;
+}
+.contact-info-con{
+ margin-left: 50px;
+  text-align: center;
+}
+
+.contact-info-about{
+  text-align: center;
+}
+.contact-info-time{
+  margin-right: 50px;
+  text-align: center;
+}
+
+.contact-info-about .fa-brands {
+ 
+  background-color: white;
+  padding: 10px;
+  border-radius: 100%;
+}
+a:hover{
+  color: orange;
+}
