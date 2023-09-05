@@ -6,7 +6,7 @@
     color: white;
 }
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 #container1{
     background-image: url("images/hero-bg.jpg");
@@ -27,11 +27,6 @@ body{
     border-radius: 25px;
     background-color: orange;
     padding: 10px;
-}
-.btn:hover{
-    transition: ease-in-out 2s;
-    width: 180px;
-    height: 48px;
 }
 #container5{
     width: 570px;
@@ -137,12 +132,15 @@ h2 {
     width: 530px;
     margin-left: 30px;
 }
+.feane{
+    margin-left: 30px;
+}
 @media (max-width: 768px){
     .text{
         font-size: 30px;
     }
     #par1{
-        width: 250px;
+        width: 300px;
         line-height: 18px;
         margin-left: 10px;
     }
@@ -167,5 +165,9 @@ h2 {
     .img2{
         margin-left: 60px;
         width: 170px;
+    }
+    .feane{
+        margin-right: 30px;
+        margin-left: 0px;
     }
 }
