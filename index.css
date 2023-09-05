@@ -1,3 +1,10 @@
+#nav{
+    margin-right: 170px;
+}
+.feane{
+    text-decoration: none;
+    color: white;
+}
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -5,8 +12,14 @@ body{
     background-image: url("images/hero-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 610px;
-    color: white;
+    background-position: center;
+    height: 690px;
+    color: rgb(19, 5, 5);
+    width: 100%;
+}
+#container8{
+    height: 750px;
+    background-color: black;
 }
 .btn{
     width: 160px;
@@ -38,7 +51,7 @@ body{
     height: 660px;
 }
 .text{
-    font-size: 60px;
+    font-size: 45px;
 }
 #btn1{
     position: absolute;
@@ -119,4 +132,40 @@ h2 {
     text-align: left;
     color: #fff;
     
+}
+#par1{
+    width: 530px;
+    margin-left: 30px;
+}
+@media (max-width: 768px){
+    .text{
+        font-size: 30px;
+    }
+    #par1{
+        width: 250px;
+        line-height: 18px;
+        margin-left: 10px;
+    }
+    #container1{
+        width: 100%;
+        height: 670px;
+    }
+    #btn1{
+        right: 490px;
+        padding: 20px;
+    }
+    #container5{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #container6{
+        padding: 40px;
+        width: 100%;
+        align-items: center;
+    }
+    .img2{
+        margin-left: 60px;
+        width: 170px;
+    }
 }
