@@ -1,30 +1,38 @@
-.container {
-    display:flex;
-    background-color: #222831;
-    padding: 90px;
+*{
+    padding: 0px;
+    margin: 0px;
 }
-.content {
-    padding-top: 200px;
-    color: #ffffff;
+#abt1{
+    text-align: center;
+    background-color: rgb(34, 40, 49);
+    padding: 150px;
+    height: 800px;
 }
-.container h2 {
-    font-family: 'Dancing script' cursive;
+#abt2{
+    color: white;
+    width: 500px;
+    margin-top: 150px;
+    text-align: left;
 }
-.container p {
-    font-family: sans-serif;
+.abt_img{
+    width: 450px;
 }
-.content h2 {
-    font-family: 'Dancing Script', cursive;
-} 
-button {    
-    color: whitesmoke;
-    border-radius:15px;
-    padding: 15px;
-    background-color: rgba(255, 255, 0, 0.697);
-    
-}
-button:hover {
-    background-color: yellowgreen;
-    transition: 1s;
-    padding:25px ;
+@media (max-width: 768px){
+    #abt1{
+        flex-direction: column-reverse;
+        padding: 0px;
+        height: 620px;
+       }
+    #abt2{
+        margin-bottom: 270px;
+        margin-left: 0px;
+        text-align: left;
+       margin-top: 0px;
+       margin-right: 490px;
+    }
+    .abt_img{
+        margin-left: 50px;
+        width: 200px;
+    }
+
 }

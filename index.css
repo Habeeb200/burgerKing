@@ -19,6 +19,7 @@ body{
 }
 #container8{
     height: 750px;
+
     background-color: black;
 }
 .btn{
@@ -136,6 +137,9 @@ h2 {
     margin-left: 30px;
 }
 @media (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
     .text{
         font-size: 30px;
     }
