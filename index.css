@@ -1,177 +1,103 @@
-#nav{
-    margin-right: 170px;
-}
-.feane{
-    text-decoration: none;
-    color: white;
-}
-body{
-    font-family: 'Courier New', Courier, monospace;
-}
 #container1{
+    padding-left: 100px;
+    padding-right: 80px;
+}
+#par1{
+    width: 550px;
+}
+#container2{
+    padding-left: 100px;
+    padding-top: 90px;
+}
+#container3{
     background-image: url("images/hero-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 690px;
-    color: rgb(19, 5, 5);
+    height: 650px;
     width: 100%;
 }
-#container8{
-    height: 750px;
+#btn1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.carousel-indicators{
+    position: absolute;
+    left: -1010px;
+    bottom: -230px;
 
-    background-color: black;
 }
-.btn{
-    width: 160px;
-    height: 45px;
-    border-radius: 25px;
-    background-color: orange;
-    padding: 10px;
-}
-#container5{
-    width: 570px;
-    padding: 15px;
-}
-.img2{
-    width: 210px;
+.img1{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
     border: 5px solid;
     border-color: orange;
-    border-radius: 50%;
+    margin-right: 10px;
 }
-#container6{
-    padding: 80px;
-    color: white;
-}
-#container8{
-    height: 660px;
-}
-.text{
-    font-size: 45px;
-}
-#btn1{
-    position: absolute;
-    top: 410px;
-    right: 980px;
-}
-i:hover{
-    color: orange;
-}
-/* .heading {
-    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-} */
-h2 {
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-}
-
-.moana-pic {
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-}
-.mike-pic {
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-}
-.customer-section {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    text-align: center;
-}
-.customer-section h2 {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-/* .carousel-inner {
+#container4{
+    width: 550px;
+    padding: 18px;
+    border-radius: 5px;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-} */
-
-.moana-box {
-    background-color: rgba(0, 0, 0, 0.815);
-    border: 1px solid rgba(0, 0, 0, 0.616);
-    width: 500px;
-    height: 300px;
-    border-radius: 20px;
-    padding: 20px;
 }
-.mike-box {
-    background-color: rgba(0, 0, 0, 0.815);
-    border: 1px solid rgba(0, 0, 0, 0.616);
-    width: 500px;
-    height: 300px;
-    border-radius: 20px;
-    padding: 20px;
-}
-.first-slide-flex {
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    /* flex-grow: 3; */
-    /* background-color: rgba(0, 0, 0, 0.616); */
-    text-align: left;
-    color: #fff;
-    
-}
-.second-slide-flex {
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    /* flex-grow: 3; */
-    /* background-color: rgba(0, 0, 0, 0.616); */
-    text-align: left;
-    color: #fff;
-    
-}
-#par1{
-    width: 530px;
-    margin-left: 30px;
-}
-.feane{
-    margin-left: 30px;
+#container5{
+   padding-top: 90px;
+   padding-bottom: 70px;
+   padding-left: 105px;
+   padding-right: 70px;
+   gap: 30px;
 }
 @media (max-width: 768px){
-    body{
-        overflow-x: hidden;
+    #container1{
+        padding-left: 0px;
+        padding-right: 0px;
     }
-    .text{
-        font-size: 30px;
+    #container2{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 80px;
     }
     #par1{
-        width: 300px;
-        line-height: 18px;
-        margin-left: 10px;
+        width: 290px;
     }
-    #container1{
-        width: 100%;
-        height: 670px;
-    }
-    #btn1{
-        right: 490px;
-        padding: 20px;
-    }
-    #container5{
-        text-align: center;
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    #container6{
-        padding: 40px;
-        width: 100%;
-        align-items: center;
-    }
-    .img2{
-        margin-left: 60px;
-        width: 170px;
-    }
-    .feane{
-        margin-right: 30px;
-        margin-left: 0px;
-    }
+   #container3{
+    background-position: center;
+    height: 750px;
+    width: 100%;
+   }
+   #par1 p{
+    font-size: 15px;
+   }
+   #container5{
+    padding: 0px;
+    margin-left: 18px;
+    margin-top: 35px;
+   }
+   #container4{
+    flex-direction: column;
+   }
+   .img1{
+    width: 130px;
+    height: 130px;
+    margin-left: 60px;
+   }
+   #container4{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+   }
+   #btn1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.carousel-indicators{
+    position: absolute;
+    left: -250px;
+}
 }
