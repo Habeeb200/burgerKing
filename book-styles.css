@@ -1,0 +1,110 @@
+.book{
+    margin-top: 50px;
+}
+.book-map-container{
+    display: flex;
+    margin-top: 0px;
+}
+.map-container{
+    margin-right: 50px;
+ 
+}
+h1{
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 120px;
+}
+iframe{
+    margin-right: 30px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+.form-container{
+    margin-left: 120px;   
+}
+input{
+    height: 50px;
+    outline: none;
+    text-decoration: none;
+}
+select{
+    height: 50px;
+    outline: none;
+    text-decoration: none;
+}
+.google-container{
+    background-color: white;
+    position: relative;
+    bottom: 410px;
+    width: 450px;
+    height: 170px;
+    padding-top: 20px;
+    padding-left: 30px;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 70px;
+}
+.google-container button{
+    position: relative;
+    left: 300px;
+    bottom: 45px;
+    border-radius: 5px 5px 5px 5px;
+    color: rgb(15, 175, 224);
+    background-color: white;  
+    border-color: rgba(0, 0, 0, 0.26);
+}
+h5{
+    color:rgba(0, 0, 0, 0.589);
+}
+p{
+    color:rgba(0, 0, 0, 0.568);
+}
+.button-cont button{
+    width: 180px;
+    height: 50px;
+    background-color: #F39C12;
+    border-radius: 50px 50px 50px 50px;    
+    color: white;
+    outline: none;
+    border: none;
+}
+@media (max-width: 780px){
+    .book-map-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-container{
+     margin: 0px;
+    }
+    h1{
+        margin-left: 10px;
+    }
+    .form-control{
+        width: 100%;
+    }
+    iframe{
+        width: 370px;
+        margin: auto;
+    }
+    .google-container{
+        width: 365px;
+        height: 170px;
+        padding-top: 20px;
+        border-radius: 20px 20px 20px 20px;
+        margin: 0px;
+    }
+    .google-container button{
+        position: relative;
+        left: 180px;
+        bottom: -15px;
+        border-radius: 5px 5px 5px 5px;
+        color: rgb(15, 175, 224);
+        background-color: white;  
+        border-color: rgba(0, 0, 0, 0.26);
+    }
+    form{
+        padding: 10px;
+    }
+    .book h1{
+        font-size: 45px;
+    }
+}
