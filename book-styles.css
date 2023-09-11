@@ -9,7 +9,7 @@
     margin-right: 50px;
  
 }
-h1{
+.book h1{
     font-size: 60px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 120px;
@@ -55,7 +55,7 @@ select{
 h5{
     color:rgba(0, 0, 0, 0.589);
 }
-p{
+.google-container p{
     color:rgba(0, 0, 0, 0.568);
 }
 .button-cont button{
@@ -75,7 +75,7 @@ p{
     .form-container{
      margin: 0px;
     }
-    h1{
+    .book h1{
         margin-left: 10px;
     }
     .form-control{
@@ -84,18 +84,20 @@ p{
     iframe{
         width: 370px;
         margin: auto;
+        padding: 5px;
     }
     .google-container{
-        width: 365px;
+        width: 355px;
         height: 170px;
         padding-top: 20px;
         border-radius: 20px 20px 20px 20px;
         margin: 0px;
+        margin-left: 4px;
     }
     .google-container button{
         position: relative;
         left: 180px;
-        bottom: -15px;
+        bottom: 40px;
         border-radius: 5px 5px 5px 5px;
         color: rgb(15, 175, 224);
         background-color: white;  

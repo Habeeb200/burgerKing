@@ -1,8 +1,6 @@
-.review-section {
-    margin-top: 4rem;
-}
 
-h2 {
+
+.heading h2 {
     font-family: 'Dancing Script', cursive;
     font-weight: 400;
     text-align: center;
@@ -68,7 +66,7 @@ h2 {
     left: 700px;
 }
 @media (max-width: 795px){
-    #container1{
+    #lol1{
         height: 348px;
     }
     .carousel-control-prev{
