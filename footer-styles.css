@@ -1,5 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
-.col-4{
+.col-sm-4{
     text-align: center;
     background-color: black;
 }
@@ -8,13 +12,11 @@
  width: 30px;
 }
 
-.col-4 a :hover{
+.col-sm-4 a :hover{
    color: orange;
 }
 a{
     color: white;
 }
-#footer-row{
-    height: 450px;
-}
+
  
