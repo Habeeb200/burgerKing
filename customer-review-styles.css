@@ -1,4 +1,6 @@
-
+.review-section {
+    margin-top: 4rem;
+}
 
 .heading h2 {
     font-family: 'Dancing Script', cursive;
@@ -44,8 +46,8 @@
     /* margin: 0 5px; */
     outline: none;
     border-radius: 100px;
-    margin-top: 90px !important;
-    margin-left: 50px;
+    margin-top: 40px !important;
+    /* margin-left: 0px; */
     position: relative;
     top: -30px;
     left: 570px;
@@ -59,14 +61,19 @@
     /* margin: 0 5px; */
     outline: none;
     border-radius: 100px;
-    margin-top: 90px !important;
-    margin-right: 50px;
+    margin-top: 92px !important;
+    /* margin-right: -700px; */
     position: relative;
     top: -165px;
     left: 700px;
 }
+.carousel-indicators {
+   display: none;
+}
+
+
 @media (max-width: 795px){
-    #lol1{
+    #containerr{
         height: 348px;
     }
     .carousel-control-prev{
